@@ -1,7 +1,9 @@
+# this file downloads your email into a text file 
+
 from exchangelib import Credentials, Account
 # Input your credentials here
-email = 'testingforpy@outlook.com'
-password = 'testing@2023'
+email = 'your email'
+password = 'your password'
 # Connect to the Outlook account
 credentials = Credentials(email, password)
 account = Account(email, credentials=credentials, autodiscover=True)
