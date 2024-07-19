@@ -1,0 +1,130 @@
+
+
+From: Security Alert <alert@aecert.ae>
+Sent: Monday, August 14, 2023 10:51 AM
+To: aecert@emiratessteel.com
+Subject: Alock Ransomware: Propagation, Exploitation, and Indicators of Compromise
+
+
+[https://alert.aecert.ae/aecert-public/tenant_media/webapp_logo_dark_b5478e9f.png]
+
+
+
+Malware Advisories
+
+
+Alock Ransomware: Propagation, Exploitation, and Indicators of Compromise
+
+
+
+
+
+[https://cdn.cyware.com/email-templates/CLEAR.png]
+TLP:CLEAR
+
+Aug 14, 2023
+
+
+The Alock Ransomware
+Alock is a ransomware program that belongs to the MedusaLocker ransomware family. This threat has been spotted recently.
+
+How it Spreads
+The ransomware spreads using techniques such as fake torrent sites, URLs, and spam emails. After infection, locked files are renamed with a ".alock" extension. For example, a file named 'one[.]jpg' is renamed to the 'One[.]jpg[.]alock'. After this process, the ransomware creates a file named 'HOW_TO_BACK_FILES[.]html' file. Based on the message, it is evident that this ransomware targets companies instead of home users. This ransomware uses double extortion tactics. The ransom-demanding message notifies the victim that their company network is compromised. The important files are locked, and personal data was stolen. The files are locked using the RSA/AES cryptographic algorithms, and they cannot be unlocked without the attackers' help. The victim is alerted that renaming or modifying the encrypted data may leave it damaged. However, paying the ransom is never suggested.
+
+How it Succeeded
+Ransomware groups use numerous attack vectors such as spam email and fake torrent sites to compromise more victims.
+
+Recent Activity
+Alock ransomware has been found targeting Windows-based systems. After infection, this threat asks victims to pay a ransom for decryption. Further, the victims cannot use locked files.
+
+Indicators of Compromise
+Encrypted Files Extension
+.alock
+
+Ransom Demanding Message
+HOW_TO_BACK_FILES[.]html
+
+Cyber Criminal Contact
+Website on Tor network
+ithelp02@securitymy[.]name<mailto:ithelp02@securitymy[.]name>
+ithelp02@yousheltered[.]com<mailto:ithelp02@yousheltered[.]com>
+
+Filename
+AL-RansomwareRAC[.]exe
+
+MD5
+4d8bdcee20a3de89ba08bd09cd4ea642
+
+SHA-1
+cc4ddf3a821eb13db3d45ed7e4b0b2ed35c2a22e
+
+SHA-256
+902afe35c6ca794e8b436dad7edf142d2492abe3907055e4bd5e85ce6f617016
+
+Vhash
+035056655d556560f3z22z89hz1031z6fz
+
+Authentihash
+fd0293e16e41b3f4b411f401a33cbc6097e7e1aab507f6a232b9588813f16cb3
+
+Imphash
+d2075085e01f67e8fee40d30b544c390
+
+Rich PE header hash
+008f850712d8b45f1aa5d62f5abbf31c
+
+SSDEEP
+6144:bkv89W2QcboLPlZvqEKvSlvgXCBVnTDg3GV06rPnek63AW1g3yEXq:bk09XelZvqEKv8gXCBlPHeByyEXq
+
+TLSH
+T1BD749D11B682C072C65216B11B79EFB696FCAD201FB159CF63C42A3DDD302C19A75F2A
+
+
+
+Reference(s)
+PC Risk<https://www.pcrisk.com/removal-guides/27500-alock-ransomware>, Virus Total<https://www.virustotal.com/gui/file/902afe35c6ca794e8b436dad7edf142d2492abe3907055e4bd5e85ce6f617016/detection>
+
+
+Threat Indicator(s)
+
+SHA1:
+cc4ddf3a821eb13db3d45ed7e4b0b2ed35c2a22e
+
+SHA256:
+902afe35c6ca794e8b436dad7edf142d2492abe3907055e4bd5e85ce6f617016
+fd0293e16e41b3f4b411f401a33cbc6097e7e1aab507f6a232b9588813f16cb3
+
+MD5:
+d2075085e01f67e8fee40d30b544c390
+008f850712d8b45f1aa5d62f5abbf31c
+4d8bdcee20a3de89ba08bd09cd4ea642
+
+
+
+
+
+
+
+
+View Alert<https://alert.aecert.ae/webapp/user/myfeeds/1f0534ee>
+
+
+Tags Alock, Medusa Locker, Windows, Spam Email, Ransomware
+
+TLP:CLEAR Subject to standard copyright rules, TLP:WHITE information may be distributed without restriction.
+
+
+
+For more update and alerts, visit: https://alert.aecert.ae
+
+
+
+
+
+If you are not supposed to receive this email,
+please contact us at alert@aecert.ae<mailto:alert@aecert.ae>.
+
+
+
+
+
