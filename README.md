@@ -25,6 +25,6 @@ Example
 ```python
 
 Configuration
-email = 'your_email@example.com' password = 'your_password' email_subject = 'Alock Ransomware'
+email = 'your_email@example.com' password = 'your_password' email_subject = 'as per choice'
 
 How to run: python IOC_extract.py
